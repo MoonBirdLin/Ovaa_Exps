@@ -7,4 +7,4 @@
   - Insecure broadcast to `MainActivity` containing credentials. The attacker can register a broadcast receiver with action `oversecured.ovaa.action.UNPROTECTED_CREDENTIALS_DATA` and obtain the user's data.
   - Use of very wide file sharing declaration for `oversecured.ovaa.fileprovider` content provider in `root` entry.
 
-- Vulnerabilities Analysis : [OVAA_analysis](./OVAA_Vul_Analysis.pdf)
+- Vulnerabilities Analysis Doc : [OVAA_analysis](./OVAA_Vul_Analysis.pdf)
